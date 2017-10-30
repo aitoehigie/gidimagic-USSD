@@ -3,7 +3,7 @@
 import config
 import requests
 
-base_url = "https://api.africastalking.com/version1/"
+base_url = "https://api.africastalking.com/version1/user"
 
 headers = dict(Apikey=config.apikey, Accept= "application/xml")
 
