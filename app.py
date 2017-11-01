@@ -10,9 +10,8 @@ try:
     user = mygateway.getUserData()
     print user['balance']
     # The result will have the format=> NGN XXX
-except:
-    #print ('Error: %s' % str(e))
-    pass
+except AfricasTalkingGatewayException, e:
+    print ('Error: %s' % str(e))
 
 
 
