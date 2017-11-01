@@ -2,17 +2,17 @@
 
 import config
 import requests
+from gateway import AfricasTalkingGateway, AfricasTalkingGatewayException
 
-base_url = "https://api.africastalking.com/version1/user"
+mygateway = AfricasTalkingGateway("sandbox", config.apikey)
 
-headers = dict(Apikey=config.apikey, Accept= "application/xml")
+try:
+    user = mygateway.getUserData()
+    print user['balance']
+    # The result will have the format=> NGN XXX
+except:
+    #print ('Error: %s' % str(e))
+    pass
 
-payload = dict(username = "pystar")
-
-result = requests.get(base_url, headers=headers, params=payload)
-
-print(result.status_code)
-
-print(result.text)
 
 
