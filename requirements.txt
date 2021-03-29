@@ -108,7 +108,7 @@ pyArango==1.2.8
 pyasn1==0.2.3
 pycparser==2.17
 PyDispatcher==2.0.5
-Pygments==2.2.0
+Pygments==2.7.4
 pync==1.6.1
 pyOpenSSL==17.3.0
 pyowm==2.6.1
