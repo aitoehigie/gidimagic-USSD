@@ -72,7 +72,7 @@ kappa==0.6.0
 konch==2.4.0
 lambda-packages==0.14.2
 lockfile==0.12.2
-lxml==3.7.3
+lxml==4.6.3
 MarkupSafe==0.23
 matplotlib==2.0.2
 mock==2.0.0
