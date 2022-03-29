@@ -81,7 +81,7 @@ notify2==0.3.1
 numpy==1.13.1
 omdb==0.7.0
 packaging==16.8
-paramiko==2.1.2
+paramiko==2.10.1
 parse==1.6.6
 pathlib==1.0.1
 pathlib2==2.2.1
